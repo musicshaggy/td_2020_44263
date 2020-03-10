@@ -33,9 +33,39 @@ using namespace std;
 	 float n = 0;
 	 float tn = t0;
 	
+	 int w = 1, float y;
+	 
+
+
 	 while(tn<=tN)
 	 {
-		cout << tn << ";" << double(3*(tn*tn) + (6*(tn)) + 2*(tn))<< ";" << endl;
+		 switch (w)
+		case 1:
+			y = 2 * ((x(tn)) * x(tnn)) + 12 * cos(tn);
+		case 2:
+			y = sin(2 * pi * tn) * x(tn) - 0.2 * log10(abs(y(tn)) + pi);
+		case 3:
+			y = -sqrt(abs(y(t) * y(tn) * z(tn))) - 1.8 * sin(0.4 * tn * z(tn) * x(tn));
+		case 4:
+		{
+			if ((0.22 > tn) && (tn >= 0)) {
+				v = (1 - (7 * tn)) * sin((2 * pi * tn * 10) / (tn + 0.04));
+			}
+			else if ((0.22 <= 7) && (tn < 0.7)) {
+				v = 0.63 * tn * sin(125 * tn);
+			}
+			else if ((1.0 >= tn) && (tn >= 0.7)) {
+				v = pow(tn, -0.0662) + (0.77 * sin(8 * tn));
+			}
+		}
+		case 5: {
+			float y = 0;
+			for (int i = 1; i <= n; i++) {
+				y = y + ((cos(12 * tn * (n * n)) + cos(16 * tn * n)) / (n * n));
+			}
+		}
+
+		cout << tn << ";" << y << ";" << endl;
 		n++;
 		tn = t0+(n*dt);
 	 }
@@ -45,9 +75,13 @@ using namespace std;
 int main()
 {
 
-	square(3,6,2);
 
-	draw(-10,10, 0.01);
+
+	
+
+	//square(3,6,2);
+
+	draw(0,1, 0.00004535147);
 	
 
 
