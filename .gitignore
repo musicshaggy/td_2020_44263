@@ -3,3 +3,6 @@
 *.sln
 *.suo
 *.vcproj
+*.db
+
+LAB2/.vs/LAB2/v16/Browse.VC.opendb
